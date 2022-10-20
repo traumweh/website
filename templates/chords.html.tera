@@ -1,0 +1,14 @@
+{% extends "main" %}
+{% block body %}
+{% for chord in chords %}
+<section lang="{{chord.lang}}" id="{{chord.id}}" class="chords">
+  <div class="section">
+    <h2>{{chord.title}}{{chord.transpose}}</h2>
+    <section id="{{chord.id}}-more" style="display: none;">
+      <pre>{{chord.text}}</pre>
+    </section>
+    <a id="{{chord.id}}-show" href="javascript:void(0)" onclick="show('{{chord.id}}')">[show]</a>
+  </div>
+</section>
+{% endfor %}
+{% endblock body %}

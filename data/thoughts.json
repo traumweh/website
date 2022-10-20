@@ -1,0 +1,94 @@
+[
+  {
+    "lang": "en",
+    "align": "right",
+    "width": "",
+    "bg": "70fab5",
+    "fg": "24394d",
+    "text": [
+      "<p>Audioooh~~Audioooh~~Audioooh~~Video~Discooh!</p>",
+      "<br>",
+      "<p>Justice slaps, okay?</p>"
+    ]
+  },
+  {
+    "lang": "en",
+    "align": "center",
+    "width": "full",
+    "bg": "ffa3a3",
+    "fg": "37112d",
+    "text": [
+      "<p>Support services are annoying!</p>",
+      "<p>Just <i>do</i> what I asked! Please!</p>",
+      "<br>",
+      "<p style=\"font-size: 70%;\">grr</p>"
+    ]
+  },
+  {
+    "lang": "en",
+    "align": "right",
+    "width": "",
+    "bg": "657ce6",
+    "fg": "fff",
+    "text": ["<p>I am tired...</p>", "<p>..I did well today</p>"]
+  },
+  {
+    "lang": "en",
+    "align": "center",
+    "width": "",
+    "bg": "211722",
+    "fg": "ff9080",
+    "text": [
+      "<h2>I wanna fight for my privacy!</h2>",
+      "<p><i>So I'm trying my best</i></p>",
+      "<br>",
+      "<p><s>Google, Amazon, Spotify, Netflix, Microsoft</s></p>",
+      "<p><s>social media, oversharing online</s></p>"
+    ]
+  },
+  {
+    "lang": "en",
+    "align": "left",
+    "width": "",
+    "bg": "cb3388",
+    "fg": "fff",
+    "text": [
+      "<p>computer, <b>how dare you</b></p>\r\n<p>telling me I made an <span style=\"color: #404;\">&#9888;error&#9888;</span></p>"
+    ]
+  },
+  {
+    "lang": "en",
+    "align": "center",
+    "width": "full",
+    "bg": "102",
+    "fg": "d03333",
+    "text": ["<p>♪ You can do it! ♪</p>"]
+  },
+  {
+    "lang": "en",
+    "align": "right",
+    "width": "",
+    "bg": "530",
+    "fg": "dc9",
+    "text": [
+      "<p>What if...</p>",
+      "<p><i><b>Mushrooms</b></i> take over the world?</p>"
+    ]
+  },
+  {
+    "lang": "en",
+    "align": "left",
+    "width": "",
+    "bg": "79ffde",
+    "fg": "000",
+    "text": ["<p>*bebi-honk* -🐤</p>"]
+  },
+  {
+    "lang": "en",
+    "align": "center",
+    "width": "",
+    "bg": "500000",
+    "fg": "ffd322",
+    "text": ["<p><s>Fuck</s> Rock Me Amadeus!</p>"]
+  }
+]

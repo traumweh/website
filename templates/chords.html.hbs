@@ -1,0 +1,15 @@
+{{#> main}}
+{{#*inline "page"}}
+{{#each chords}}
+<section lang="{{lang}}" id="{{id}}" class="chords">
+  <div class="section">
+    <h2>{{title}}{{transpose}}</h2>
+    <section id="{{id}}-more" style="display: none;">
+      <pre>{{text}}</pre>
+    </section>
+    <a id="{{id}}-show" href="javascript:void(0)" onclick="show('{{id}}')">[show]</a>
+  </div>
+</section>
+{{/each}}
+{{/inline}}
+{{/main}}

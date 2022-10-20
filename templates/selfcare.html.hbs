@@ -1,0 +1,16 @@
+{{#> main}}
+{{#*inline "page"}}
+<h1 class="title">.selfcare</h1>
+<p>Music is one of my biggest means of selfcare, so I thought I might as 
+   well share the music I listen to and links to buy that music (e.g. 
+   bandcamp-pages).</p>
+<br>
+<p>
+{{#each music}}
+  {{label}} (<a href="{{url}}">{{domain}}</a>)<br>
+{{/each}}
+</p>
+<br>
+<h2 id="legal" class="title" style="cursor: pointer;"><a href="/legal">.legal stuff</a></h2>
+{{/inline}}
+{{/main}}

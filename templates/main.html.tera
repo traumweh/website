@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang={{lang}}>
+<head>
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+{% for file in css %}
+  <link rel="stylesheet" href="{{file}}">
+{% endfor %}
+{% for file in js %}
+  <script src="{{file}}"></script>
+{% endfor %}
+</head>
+<body>
+  {% block body %}{% endblock body %}
+</body>
+</html>

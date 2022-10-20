@@ -1,0 +1,114 @@
+:root {
+	--highlight: #b54040;
+}
+
+
+/* ========================================================================== */
+/* general */
+body {
+	color: white;
+	margin: 0;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background: #231f20;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: initial;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+p {
+	margin: 0 1%;
+	line-height: 150%;
+}
+
+a:link, a:visited {
+	color: var(--highlight);
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: var(--highlight);
+	text-decoration: none;
+}
+
+.title {
+	color: var(--highlight);
+	text-shadow: 0 0 4px #231f20;
+	text-decoration: none;
+}
+
+.chords {
+	padding: 2em 0em 3em;
+	width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+	body, hr {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	body, hr {
+		margin-left: 9%;
+		margin-right: 9%;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	body, hr {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	body, hr {
+		margin-left: 21%;
+		margin-right: 21%;
+	}
+}
+
+
+/* ========================================================================== */
+/* Logos */
+.logo {
+	display: inline;
+  object-fit: cover;
+	height: 2em;
+  width: auto;
+	margin: -0.5em 0;
+	vertical-align:middle;
+}
+
+
+/* ========================================================================== */
+/* Embed Stuff */
+.inline-embed {
+    max-width: 100%;
+    max-height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    color: #e3e7ec;
+}
+
+.embed-placeholder {
+    padding: 20px 1%;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.inline-image {
+    max-width: 100%;
+    max-height: 50vh;
+}

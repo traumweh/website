@@ -1,0 +1,16 @@
+{{#> main}}
+{{#*inline "page"}}
+<div class="container" id="container">
+{{#each thoughts}}
+  <section lang={{lang}} class="thought" style="text-align: {{align}};">
+    <div class="thought-content {{width}} {{align}}" style="text-align: {{align}}; color: #{{fg}}; background-color: #{{bg}};">
+{{#each text as |t|}}
+      {{{t}}}
+{{/each}}
+    </div>
+  </section>
+{{/each}}
+</div>
+{{/inline}}
+{{> parent}}
+{{/main}}

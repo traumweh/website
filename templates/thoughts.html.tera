@@ -1,0 +1,14 @@
+{% extends "main" %}
+{% block body %}
+<div class="container" id="container">
+{% for thought in thoughts %}
+  <section lang={{thought.lang}} class="thought" style="text-align: {{thought.align}};">
+    <div class="thought-content {{thought.width}} {{thought.align}}" style="text-align: {{thought.align}}; color: #{{thought.fg}}; background-color: #{{thought.bg}};">
+{% for t in thought.text %}
+      {{ t | safe }}
+{% endfor %}
+    </div>
+  </section>
+{% endfor %}
+</div>
+{% endblock body %}

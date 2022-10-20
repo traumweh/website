@@ -1,0 +1,13 @@
+{% extends "main" %}
+{% block body %}
+<div class="section">
+  <h1 class="title">.legal stuff</h1>
+  <p>If you really need to contact me, you can do so by sending a 
+     mail to <b>contact+www[at]traumweh.dev</b>.</p>
+  <br>
+  <p>I don't collect any personal data and all logs are anonymised
+     and get deleted withing a week. External content will need 
+     explicit action by you to load and even tho they are tasty, 
+     no cookies are being used on this site.</p>
+</div>
+{% endblock body %}
