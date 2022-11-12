@@ -9,12 +9,14 @@
 <p>
   <a href="/thoughts"><img class="logo" src="/static/images/thoughts.png" alt="thoughts-logo">&nbsp;thoughts</a><br>
   <a href="/selfcare"><img class="logo" src="/static/images/selfcare.png" alt="selfcare-logo">&nbsp;selfcare</a><br>
-  <a href="/fsm"><img class="logo" src="/static/images/fsm.png" alt="fsm-logo">&nbsp;fsm designer</a><br>
 </p>
 <h2>off-site</h2>
 <p>
-  <a href="https://gitlab.com/traumweh"><img class="logo" src="/static/images/gitlab.png" alt="gitlab-logo">&nbsp;gitlab</a><br>
+  <a href="https://github.com/traumweh/duckypad_daemon"><img class="logo" src="/static/images/duckypad.png" alt="duckypad-daemon-logo">&nbsp;duckypad daemon</a><br>
+  <a href="https://github.com/traumweh/website"><img class="logo" src="/static/images/traumweh.png" alt="website-logo">&nbsp;website source</a><br>
+  <a href="/fsm"><img class="logo" src="/static/images/fsm.png" alt="fsm-logo">&nbsp;fsm designer</a><br>
   <a href="https://github.com/traumweh"><img class="logo" src="/static/images/github.png" alt="github-logo">&nbsp;github</a><br>
+  <a href="https://gitlab.com/traumweh"><img class="logo" src="/static/images/gitlab.png" alt="gitlab-logo">&nbsp;gitlab</a><br>
 </p>
 <br>
 <h2 id="legal" class="title" style="cursor: pointer;"><a href="/legal">.legal stuff</a></h2>

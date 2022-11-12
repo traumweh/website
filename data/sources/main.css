@@ -78,9 +78,9 @@ a:hover, a:active {
 .logo {
 	display: inline;
   object-fit: cover;
-	height: 2em;
+	height: 1.5em;
   width: auto;
-	margin: -0.5em 0;
+	margin: -0.25em 0;
 	vertical-align:middle;
 }
 
