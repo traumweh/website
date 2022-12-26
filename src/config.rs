@@ -52,7 +52,7 @@ pub fn read_texts(dir: &PathBuf, map: &ArcMutHashMap<PathBuf, (String, SystemTim
     let mut map_mut = map_arc.lock().expect("Failed to lock mutex.");
 
     read_dir(dir)
-        .expect(concat!("Directory doesn't exist: ", stringify!(dir)))
+        .expect(format!("Directory doesn't exist: {}", dir.to_str().unwrap()).as_str())
         .for_each(|dir_entry| {
             let path = dir_entry.expect("DirEntry doesn't exist anymore.").path();
             let modified = metadata(&path)

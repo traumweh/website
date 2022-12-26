@@ -17,7 +17,15 @@ pub fn start(
     jsons: &ArcMutHashMap<PathBuf, (Value, SystemTime)>,
     chords: &ArcMutHashMap<PathBuf, (String, SystemTime)>,
 ) -> Rocket<Build> {
-    rocket::build()
+    let figment = rocket::Config::figment()
+        .merge(("port", 8080))
+        .merge((
+            "address",
+            std::net::IpAddr::V4(std::net::Ipv4Addr::new(0, 0, 0, 0)),
+        ))
+        .merge(("ident", rocket::config::Ident::none()));
+
+    rocket::custom(figment)
         .mount(
             "/",
             routes![home, legal, thoughts, selfcare, chords, fsm, favicon],
